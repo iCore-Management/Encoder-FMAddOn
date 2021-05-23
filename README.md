@@ -21,10 +21,15 @@ Package Contents:
   
 
 # Installation Instructions:
-  Install the folder in the right place
-  Install the add on
-  Drag the add on to the layout
-  Open the webviewer settings and update the qrText calculation
+**Place the downloaded Arrays folder in your FileMaker Add-Ons directory:**
+
+   Mac: ~/Library/Application Support/FileMaker/Extensions/AddonModules
+   
+   Win: ~\\AppData\\Local\\FileMaker\\Extensions\\AddonModules
+
+You can then install Encoder from the Add-Ons tab in FileMaker from Layout Mode.
+
+Open the webviewer settings and update the qrText calculation
 
 # Usage Instructions
   Once installed, Encoder generates the QR Code from the variable qrText calculation in the webViewer settings, based on the current context of the layout.
