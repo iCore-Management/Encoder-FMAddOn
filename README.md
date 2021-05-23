@@ -21,7 +21,7 @@ Package Contents:
   
 
 # Installation Instructions:
-**Place the downloaded Arrays folder in your FileMaker Add-Ons directory:**
+**Place the downloaded Encoder folder in your FileMaker Add-Ons directory:**
 
    Mac: ~/Library/Application Support/FileMaker/Extensions/AddonModules
    
