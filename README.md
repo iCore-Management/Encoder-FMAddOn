@@ -13,10 +13,12 @@ Dependencies:
 Notes:
 
 Package Contents:
-  Scripts: getQRCode
-  Custom Functions: none
-  Layouts: none
-  Tables: none
+
+- Scripts: getQRCode
+- Custom Functions: none
+- Layouts: none
+- Tables: none
+  
 
 # Installation Instructions:
   Install the folder in the right place
