@@ -21,6 +21,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.13F9260227C351B269626643F5545F71</StringID>
+	<SourceText>[&lt;ic^SIZE&gt;]</SourceText>
+	<TargetText>[&lt;ic^SIZE&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^SIZE&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.1518D7669E15E0FE2622BAF79EFE9B11</StringID>
 	<SourceText>qrcode.gif</SourceText>
 	<TargetText>qrcode.gif</TargetText>
@@ -56,6 +63,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.22B1CCE01D26FD7127B3DCC17E21C417</StringID>
+	<SourceText>Include the QR margin</SourceText>
+	<TargetText>Include the QR margin</TargetText>
+	<Comment>com.fmi.calculation.text.Include the QR margin</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.25100B9B57CC039D8BF59F7FC88A917E</StringID>
 	<SourceText>iCore: QRCodes</SourceText>
 	<TargetText>iCore: QRCodes</TargetText>
@@ -63,10 +77,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.2B8458219B19BD22FF6B8F6F84806DD2</StringID>
-	<SourceText>&lt;&lt;SIZE&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;SIZE&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;SIZE&gt;&gt;</Comment>
+	<StringID>com.fmi.calculation.text.29EC7D8016BB36FB3AC7B79774D9F55C</StringID>
+	<SourceText>[&lt;ic^TYPENUMBER&gt;]</SourceText>
+	<TargetText>[&lt;ic^TYPENUMBER&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^TYPENUMBER&gt;]</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -81,20 +95,6 @@
 	<SourceText>\&quot;</SourceText>
 	<TargetText>\&quot;</TargetText>
 	<Comment>com.fmi.calculation.text.\&quot;</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.33BF8B325D12C589F9C28677680D18C7</StringID>
-	<SourceText>&lt;&lt;ERRORCORRECTION&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;ERRORCORRECTION&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;ERRORCORRECTION&gt;&gt;</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.3430F183781E4D37EA93AC612C9B844A</StringID>
-	<SourceText>Should include the QR margin</SourceText>
-	<TargetText>Should include the QR margin</TargetText>
-	<Comment>com.fmi.calculation.text.Should include the QR margin</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -126,24 +126,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.5620E1E757E2BE4C44108BDBE85B0633</StringID>
-	<SourceText>&lt;&lt;TEXT&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;TEXT&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;TEXT&gt;&gt;</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.5DE950EA8352F1BE463DCE5ADE3045B3</StringID>
 	<SourceText>OPTIONAL QRCODE SETTINGS</SourceText>
 	<TargetText>OPTIONAL QRCODE SETTINGS</TargetText>
 	<Comment>com.fmi.calculation.text.OPTIONAL QRCODE SETTINGS</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.628CBCDB032847C65FD2D706FBF3F441</StringID>
-	<SourceText>&lt;&lt;TYPENUMBER&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;TYPENUMBER&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;TYPENUMBER&gt;&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -168,6 +154,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.90950CFC138C6AE5CE0B12FB98F2C232</StringID>
+	<SourceText>[&lt;ic^STYLE&gt;]</SourceText>
+	<TargetText>[&lt;ic^STYLE&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^STYLE&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.95BD0D3EBA975F6395FD260D11ED45CE</StringID>
 	<SourceText> 1-40; 0 for autodetect </SourceText>
 	<TargetText> 1-40; 0 for autodetect </TargetText>
@@ -189,17 +182,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.AFBF66E605C2F6ED856FD6E0F756AF5D</StringID>
-	<SourceText>&lt;&lt;MARGIN&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;MARGIN&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;MARGIN&gt;&gt;</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.B6EB1D8FDFF3BF037063FB89D3410A7C</StringID>
-	<SourceText>&lt;&lt;Javascript&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;Javascript&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;Javascript&gt;&gt;</Comment>
+	<StringID>com.fmi.calculation.text.B5CFA679C28721856A5DFCCD2648A8E1</StringID>
+	<SourceText>https://icoremanagement.com/products/encoder</SourceText>
+	<TargetText>https://icoremanagement.com/products/encoder</TargetText>
+	<Comment>com.fmi.calculation.text.https://icoremanagement.com/products/encoder</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -210,6 +196,20 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.D44EB23038027E38EB4A8C37B458C296</StringID>
+	<SourceText>[&lt;ic^MARGIN&gt;]</SourceText>
+	<TargetText>[&lt;ic^MARGIN&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^MARGIN&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.D8D2C3D0B8909568C5B3FF5FE036DAEF</StringID>
+	<SourceText>[&lt;ic^TEXT&gt;]</SourceText>
+	<TargetText>[&lt;ic^TEXT&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^TEXT&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.DA4EB5B4CEB3DFDA640301EDE985868A</StringID>
 	<SourceText>Q</SourceText>
 	<TargetText>Q</TargetText>
@@ -217,10 +217,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.DF8DE24E85477EFCC12B0BD6709E204A</StringID>
-	<SourceText>&lt;&lt;Style&gt;&gt;</SourceText>
-	<TargetText>&lt;&lt;Style&gt;&gt;</TargetText>
-	<Comment>com.fmi.calculation.text.&lt;&lt;Style&gt;&gt;</Comment>
+	<StringID>com.fmi.calculation.text.DEDBF8D19E0535BF4E697824849FD27A</StringID>
+	<SourceText>[&lt;ic^JAVASCRIPT&gt;]</SourceText>
+	<TargetText>[&lt;ic^JAVASCRIPT&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^JAVASCRIPT&gt;]</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -228,6 +228,13 @@
 	<SourceText>REPLACE &quot;qrText&quot; below with text, a field, or a calculation </SourceText>
 	<TargetText>REPLACE &quot;qrText&quot; below with text, a field, or a calculation </TargetText>
 	<Comment>com.fmi.calculation.text.REPLACE &quot;qrText&quot; below with text, a field, or a calculation</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.EE50DADDBF177446A17A6DE0C9E81C12</StringID>
+	<SourceText>[&lt;ic^ERRORCORRECTION&gt;]</SourceText>
+	<TargetText>[&lt;ic^ERRORCORRECTION&gt;]</TargetText>
+	<Comment>com.fmi.calculation.text.[&lt;ic^ERRORCORRECTION&gt;]</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -266,17 +273,17 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.layoutobject.text.1F98B9E6839856196BD7EE646EF21DCA</StringID>
-	<SourceText>Package Includes:<CR/>Scripts: <CR/><TAB/>getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</SourceText>
-	<TargetText>Package Includes:<CR/>Scripts: <CR/><TAB/>getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</TargetText>
-	<Comment>com.fmi.layoutobject.text.Package Includes:_CR/_Scripts: _CR/__TAB/_getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</Comment>
+	<StringID>com.fmi.layoutobject.text.2F14CEDD0C7C53174AD5FB1C0095A825</StringID>
+	<SourceText>Package Includes:<CR/>Tables:<CR/>Layouts:<CR/>Scripts: <CR/><TAB/>getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</SourceText>
+	<TargetText>Package Includes:<CR/>Tables:<CR/>Layouts:<CR/>Scripts: <CR/><TAB/>getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</TargetText>
+	<Comment>com.fmi.layoutobject.text.Package Includes:_CR/_Tables:_CR/_Layouts:_CR/_Scripts: _CR/__TAB/_getQRCode; The QR Code will automatically display in the Web Viewer. To save the image, call this script and then set a container field to Get ( ScriptResult ).</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.layoutobject.text.3FCC6D2A67005003F6EA6CCA8C7899FB</StringID>
-	<SourceText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;&lt;&lt;Style&gt;&gt;&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;&lt;&lt;Javascript&gt;&gt;&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode(&lt;&lt;TYPENUMBER&gt;&gt;,&quot;&lt;&lt;ERRORCORRECTION&gt;&gt;&quot;);e.addData(&quot;&lt;&lt;TEXT&gt;&gt;&quot;),e.make(),c=e.getModuleCount();var o=Math.floor(&lt;&lt;SIZE&gt;&gt;/(c+(&lt;&lt;MARGIN&gt;&gt;==1?8:0)));m=&lt;&lt;MARGIN&gt;&gt;==1?4*o:0;var n=e.createImgTag(o,m,&quot;&lt;&lt;TEXT&gt;&gt;&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</SourceText>
-	<TargetText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;&lt;&lt;Style&gt;&gt;&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;&lt;&lt;Javascript&gt;&gt;&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode(&lt;&lt;TYPENUMBER&gt;&gt;,&quot;&lt;&lt;ERRORCORRECTION&gt;&gt;&quot;);e.addData(&quot;&lt;&lt;TEXT&gt;&gt;&quot;),e.make(),c=e.getModuleCount();var o=Math.floor(&lt;&lt;SIZE&gt;&gt;/(c+(&lt;&lt;MARGIN&gt;&gt;==1?8:0)));m=&lt;&lt;MARGIN&gt;&gt;==1?4*o:0;var n=e.createImgTag(o,m,&quot;&lt;&lt;TEXT&gt;&gt;&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</TargetText>
-	<Comment>com.fmi.layoutobject.text.&lt;!DOCTYPE HTML&gt;_CR/_&lt;HEAD&gt;_CR/_&lt;STYLE&gt;&lt;&lt;Style&gt;&gt;&lt;/STYLE&gt;_CR/_&lt;/HEAD&gt;_CR/_&lt;BODY onLoad=setQRCode();&gt;_CR/__TAB/_&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;_CR/_&lt;/BODY&gt;_CR/_&lt;SCRIPT&gt;&lt;&lt;Javascript&gt;&gt;&lt;/SCRIPT&gt;_CR/_&lt;SCRIPT&gt;_CR/_function setQRCode(){var e=qrcode(&lt;&lt;TYPENUMBER&gt;&gt;,&quot;&lt;&lt;ERRORCORRECTION&gt;&gt;&quot;);e.addData(&quot;&lt;&lt;TEXT&gt;&gt;&quot;),e.make(),c=e.getModuleCount();var o=Math.floor(&lt;&lt;SIZE&gt;&gt;/(c+(&lt;&lt;MARGIN&gt;&gt;==1?8:0)));m=&lt;&lt;MARGIN&gt;&gt;==1?4*o:0;var n=e.createImgTag(o,m,&quot;&lt;&lt;TEXT&gt;&gt;&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}_CR/_&lt;/SCRIPT&gt;_CR/_&lt;/HTML&gt;</Comment>
+	<StringID>com.fmi.layoutobject.text.32B3CC27C6A41792AC1C46E21A404CE5</StringID>
+	<SourceText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</SourceText>
+	<TargetText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</TargetText>
+	<Comment>com.fmi.layoutobject.text.&lt;!DOCTYPE HTML&gt;_CR/_&lt;HEAD&gt;_CR/_&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;_CR/_&lt;/HEAD&gt;_CR/_&lt;BODY onLoad=setQRCode();&gt;_CR/__TAB/_&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;_CR/_&lt;/BODY&gt;_CR/_&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;_CR/_&lt;SCRIPT&gt;_CR/_function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:i},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}_CR/_&lt;/SCRIPT&gt;_CR/_&lt;/HTML&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -287,13 +294,6 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.layoutobject.text.5E902200D4697AF3E8C167B567C82272</StringID>
-	<SourceText>https://iCoreManagement.com/support/QREnoder</SourceText>
-	<TargetText>https://iCoreManagement.com/support/QREnoder</TargetText>
-	<Comment>com.fmi.layoutobject.text.https://iCoreManagement.com/support/QREnoder</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
 	<StringID>com.fmi.layoutobject.text.A50BCBAA10D45C40DDE10E19BBF379F8</StringID>
 	<SourceText>Encoder</SourceText>
 	<TargetText>Encoder</TargetText>
@@ -301,10 +301,17 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.layoutobject.text.E48F90F22B4615E48AEE3E8A67DE8734</StringID>
-	<SourceText>1. In Layout Mode, open the Web Viewer Setup.  Set qrText to the text for the QR Code.<CR/><CR/>2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</SourceText>
-	<TargetText>1. In Layout Mode, open the Web Viewer Setup.  Set qrText to the text for the QR Code.<CR/><CR/>2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</TargetText>
-	<Comment>com.fmi.layoutobject.text.1. In Layout Mode, open the Web Viewer Setup.  Set qrText to the text for the QR Code._CR/__CR/_2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</Comment>
+	<StringID>com.fmi.layoutobject.text.A73C0DB8E31004B2289C6DF02B083479</StringID>
+	<SourceText>1. In Layout Mode, open the Web Viewer Setup.  Set the variable qrText to the text for the QR Code.<CR/><CR/>2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</SourceText>
+	<TargetText>1. In Layout Mode, open the Web Viewer Setup.  Set the variable qrText to the text for the QR Code.<CR/><CR/>2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</TargetText>
+	<Comment>com.fmi.layoutobject.text.1. In Layout Mode, open the Web Viewer Setup.  Set the variable qrText to the text for the QR Code._CR/__CR/_2. Resize the QRCode group to the appropriate size for the layout.  The QR Code will automatically adjust to the size of the Web Viewer.</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
+	<StringID>com.fmi.layoutobject.text.F7C27064D4BBC107A491147E70B4D405</StringID>
+	<SourceText>https://iCoreManagement.com/products/Encoder</SourceText>
+	<TargetText>https://iCoreManagement.com/products/Encoder</TargetText>
+	<Comment>com.fmi.layoutobject.text.https://iCoreManagement.com/products/Encoder</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
