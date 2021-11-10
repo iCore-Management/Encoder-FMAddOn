@@ -34,7 +34,7 @@ Open the webviewer settings and update the qrText calculation
 # Usage Instructions
   Once installed, Encoder generates the QR Code from the variable qrText calculation in the webViewer settings, based on the current context of the layout.
   
-  Encoder automatically adjusts the size of the QR Code to the size of the webViwer.  To adjust the size of the QR Code, change the size of the webViewer.
+  Encoder automatically adjusts the size of the QR Code to the size of the webViewer.  To adjust the size of the QR Code, change the size of the webViewer.
   
   **Options:** margin
   If allow interation is enabled, the QR Code gif can be dragged directly from the webViewer.
