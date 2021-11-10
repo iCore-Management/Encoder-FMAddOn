@@ -42,13 +42,6 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.1B979C2EF1DEE762927DE42CCA2AF905</StringID>
-	<SourceText>src=\&quot;data:image/gif;base64,</SourceText>
-	<TargetText>src=\&quot;data:image/gif;base64,</TargetText>
-	<Comment>com.fmi.calculation.text.src=\&quot;data:image/gif;base64,</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.209DB37C11A9068C2451C2D0F807C567</StringID>
 	<SourceText>*******************<CR/>iCore Management<CR/><CR/>For additional help, tips, and tricks, visit <CR/>https://iCoreManagement.com<CR/><CR/>*******************</SourceText>
 	<TargetText>*******************<CR/>iCore Management<CR/><CR/>For additional help, tips, and tricks, visit <CR/>https://iCoreManagement.com<CR/><CR/>*******************</TargetText>
@@ -81,6 +74,13 @@
 	<SourceText>[&lt;ic^TYPENUMBER&gt;]</SourceText>
 	<TargetText>[&lt;ic^TYPENUMBER&gt;]</TargetText>
 	<Comment>com.fmi.calculation.text.[&lt;ic^TYPENUMBER&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.2D5C6DE4E7B54E5FC299224C3F49A951</StringID>
+	<SourceText>&lt;/script&gt;</SourceText>
+	<TargetText>&lt;/script&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;/script&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -133,6 +133,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.68850CAD0398E6B25DF394C3F83F0E06</StringID>
+	<SourceText>&lt;ic_script&gt;</SourceText>
+	<TargetText>&lt;ic_script&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;ic_script&gt;</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.69AA022D4F1AC73A79B99A89059ACDE1</StringID>
 	<SourceText>SET QR CODE TEXT HERE</SourceText>
 	<TargetText>SET QR CODE TEXT HERE</TargetText>
@@ -151,20 +158,6 @@
 	<SourceText>[]</SourceText>
 	<TargetText>[]</TargetText>
 	<Comment>com.fmi.calculation.text.[]</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.834585B3F7F39221323BEF223E791887</StringID>
-	<SourceText>OnLoad</SourceText>
-	<TargetText>OnLoad</TargetText>
-	<Comment>com.fmi.calculation.text.OnLoad</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.90950CFC138C6AE5CE0B12FB98F2C232</StringID>
-	<SourceText>[&lt;ic^STYLE&gt;]</SourceText>
-	<TargetText>[&lt;ic^STYLE&gt;]</TargetText>
-	<Comment>com.fmi.calculation.text.[&lt;ic^STYLE&gt;]</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -203,6 +196,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.B20C8CD36E9762CFA998FEE3880352EA</StringID>
+	<SourceText>&lt;style&gt;</SourceText>
+	<TargetText>&lt;style&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;style&gt;</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.B5CFA679C28721856A5DFCCD2648A8E1</StringID>
 	<SourceText>https://icoremanagement.com/products/encoder</SourceText>
 	<TargetText>https://icoremanagement.com/products/encoder</TargetText>
@@ -224,10 +224,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.CC7446A9F302500DB565D4BD1473BD43</StringID>
-	<SourceText>.Result</SourceText>
-	<TargetText>.Result</TargetText>
-	<Comment>com.fmi.calculation.text..Result</Comment>
+	<StringID>com.fmi.calculation.text.D299F2F825EF15A389EE1044B7AA6066</StringID>
+	<SourceText>&lt;ic_style&gt;</SourceText>
+	<TargetText>&lt;ic_style&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;ic_style&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -245,6 +245,13 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.D8A819DB0018E2E6AED4F6D606A9683B</StringID>
+	<SourceText>&lt;/style&gt;</SourceText>
+	<TargetText>&lt;/style&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;/style&gt;</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
 	<StringID>com.fmi.calculation.text.D8D2C3D0B8909568C5B3FF5FE036DAEF</StringID>
 	<SourceText>[&lt;ic^TEXT&gt;]</SourceText>
 	<TargetText>[&lt;ic^TEXT&gt;]</TargetText>
@@ -256,13 +263,6 @@
 	<SourceText>Q</SourceText>
 	<TargetText>Q</TargetText>
 	<Comment>com.fmi.calculation.text.Q</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.calculation.text.DEDBF8D19E0535BF4E697824849FD27A</StringID>
-	<SourceText>[&lt;ic^JAVASCRIPT&gt;]</SourceText>
-	<TargetText>[&lt;ic^JAVASCRIPT&gt;]</TargetText>
-	<Comment>com.fmi.calculation.text.[&lt;ic^JAVASCRIPT&gt;]</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -284,6 +284,13 @@
 	<SourceText>[&lt;ic^ERRORCORRECTION&gt;]</SourceText>
 	<TargetText>[&lt;ic^ERRORCORRECTION&gt;]</TargetText>
 	<Comment>com.fmi.calculation.text.[&lt;ic^ERRORCORRECTION&gt;]</Comment>
+</DynamicTemplateString>
+
+<DynamicTemplateString>
+	<StringID>com.fmi.calculation.text.FD0BC0774B31D34F0432433AAB0E1181</StringID>
+	<SourceText>&lt;script&gt;</SourceText>
+	<TargetText>&lt;script&gt;</TargetText>
+	<Comment>com.fmi.calculation.text.&lt;script&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -336,10 +343,10 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.layoutobject.text.7C67B99F440EA37A5201315477F6BFC7</StringID>
-	<SourceText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</SourceText>
-	<TargetText>&lt;!DOCTYPE HTML&gt;<CR/>&lt;HEAD&gt;<CR/>&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;<CR/>&lt;/HEAD&gt;<CR/>&lt;BODY onLoad=setQRCode();&gt;<CR/><TAB/>&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/>&lt;/BODY&gt;<CR/>&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;<CR/>&lt;SCRIPT&gt;<CR/>function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>&lt;/SCRIPT&gt;<CR/>&lt;/HTML&gt;</TargetText>
-	<Comment>com.fmi.layoutobject.text.&lt;!DOCTYPE HTML&gt;_CR/_&lt;HEAD&gt;_CR/_&lt;STYLE&gt;[&lt;ic^STYLE&gt;]&lt;/STYLE&gt;_CR/_&lt;/HEAD&gt;_CR/_&lt;BODY onLoad=setQRCode();&gt;_CR/__TAB/_&lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;_CR/_&lt;/BODY&gt;_CR/_&lt;SCRIPT&gt;[&lt;ic^JAVASCRIPT&gt;]&lt;/SCRIPT&gt;_CR/_&lt;SCRIPT&gt;_CR/_function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}_CR/_&lt;/SCRIPT&gt;_CR/_&lt;/HTML&gt;</Comment>
+	<StringID>com.fmi.layoutobject.text.87D159A2386E1479954DD0C20355E11C</StringID>
+	<SourceText>&lt;html lang=&quot;en&quot;&gt;<CR/>&lt;head&gt;<CR/>  &lt;meta charset=&quot;UTF-8&quot;/&gt;<CR/>  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<CR/>  &lt;title&gt;iCore Encoder&lt;/title&gt;<CR/>  &lt;script&gt;window.ic_properties = [ic_properties]&lt;/script&gt;<CR/>  &lt;ic_style&gt;<CR/><CR/>&lt;/head&gt;<CR/>&lt;body onLoad=setQRCode();&gt;<CR/><CR/>    &lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/><CR/>    &lt;script&gt;<CR/>        function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>    &lt;/script&gt;<CR/><CR/>&lt;script&gt;<CR/>{<CR/>    $(callFileMaker(window.ic_properties))<CR/>};<CR/><CR/>function callFileMaker(scriptParameters, retry = 0) {<CR/>    let numberOfRetries = 10;<CR/>    try {<CR/>        FileMaker.PerformScript(&apos;getTable&apos;, JSON.stringify(scriptParameters))<CR/>    } catch (e) {<CR/>        if (retry &lt; numberOfRetries) {<CR/>            setTimeout(function() {<CR/>                callFileMaker(scriptParameters, retry++)<CR/>            }, 10)<CR/>        }<CR/>    }<CR/>}<CR/>class FMData {<CR/>    constructor(data) {<CR/>        this.raw = data;<CR/>        this.parsed = data.length === 0 ? [] : JSON.parse(data);<CR/>        this.fieldData = function() {<CR/>            return this.parsed.map((element) =&gt; element.fieldData)<CR/>        };<CR/>        this.portalData = function() {<CR/>            return this.parsed.map((element) =&gt; element.portalData)<CR/>        };<CR/>        this.portalDataInfo = function() {<CR/>            return this.parsed.map((element) =&gt; element.portalDataInfo)<CR/>        };<CR/>        this.modId = function() {<CR/>            return this.parsed.map((element) =&gt; element.modId)<CR/>        };<CR/>        this.recordId = function() {<CR/>            return this.parsed.map((element) =&gt; element.recordId)<CR/>        };<CR/>        this.data = function() {<CR/>            return this.parsed<CR/>        }<CR/>    }<CR/>}<CR/>class TableData extends FMData {<CR/>    constructor(data) {<CR/>        super(data);<CR/>        this.columns = function() {<CR/>            let columns = [ic_COLUMNS];<CR/>            if (Array.isArray(columns) &amp;&amp; columns.length != 0) {<CR/>                return columns<CR/>            } else {<CR/>                return Object.keys(this.fieldData()[0]).map(element =&gt; ({<CR/>                    data: element.replace(&quot;.&quot;, &quot;\\.&quot;),<CR/>                    title: element<CR/>                }))<CR/>            }<CR/>        }<CR/>    }<CR/>}<CR/><CR/>function prepareTableData(data) {<CR/>    let list = new TableData(data);<CR/>    let contents = list.fieldData();<CR/>    let columns = list.columns();<CR/>    let settings = getSettings();<CR/>    let tableObject = createTableObject(contents, columns, settings);<CR/>    showTable(tableObject)<CR/><CR/>    let buttonAppend = function() {<CR/><CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/><CR/>    table<CR/>    .buttons()<CR/>    .container()<CR/>    .appendTo( &apos;#table_length&apos; );<CR/><CR/>    table<CR/>    .buttons()<CR/>    .container()<CR/>    .addClass(&apos;mx-2&apos;);<CR/>    }();<CR/>}<CR/><CR/>function getSettings() {<CR/>    let settings = [ic_TABLE];<CR/>    if (typeof settings === &apos;object&apos;) {<CR/>        return settings<CR/>    } else {<CR/>        return;<CR/>    }<CR/>}<CR/><CR/>function createTableObject(contents, columns, settings) {<CR/>    let tableObject = {<CR/>        data: contents,<CR/>        columns: columns<CR/>    };<CR/>    return Object.assign(tableObject, settings)<CR/>}<CR/><CR/>function showTable(tableObject) {<CR/>    if (!$.fn.DataTable.isDataTable(&apos;#table&apos;)) {<CR/>        $(&apos;#table&apos;).DataTable(tableObject)<CR/>    }<CR/>}<CR/><CR/>function createButtonElement(buttonText, scriptName, classList) {<CR/>    return buttonFunc = function(data, type, row) {<CR/>        return `&lt;center&gt;&lt;button class=&quot;${ classList }&quot; data-script=${ scriptName }&gt;${ buttonText }&lt;/button&gt;&lt;/center&gt;`<CR/>    }<CR/>}<CR/><CR/>function externalButtonClicked(scriptName) {<CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/>    var selected = [];<CR/>    for (var i = 0; i &lt; table.rows(&apos;.selected&apos;).data().length; i += 1) {<CR/>        selected.push(table.rows(&apos;.selected&apos;).data()[i])<CR/>    }<CR/>    FileMaker.PerformScript(scriptName, JSON.stringify(selected));<CR/>}<CR/><CR/>$(&apos;#table&apos;).on(&apos;click&apos;, &apos;.btn&apos;, function() {<CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/>    let rowNode = $(this).parent().parent();<CR/>    let rowData = table.row(rowNode).data();<CR/>    let script = $(this).data(&quot;script&quot;);<CR/>    FileMaker.PerformScript(script, JSON.stringify(rowData));<CR/>});<CR/>&lt;/script&gt; <CR/><CR/>&lt;ic_script&gt;<CR/><CR/>&lt;/body&gt;<CR/>&lt;/html&gt;</SourceText>
+	<TargetText>&lt;html lang=&quot;en&quot;&gt;<CR/>&lt;head&gt;<CR/>  &lt;meta charset=&quot;UTF-8&quot;/&gt;<CR/>  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<CR/>  &lt;title&gt;iCore Encoder&lt;/title&gt;<CR/>  &lt;script&gt;window.ic_properties = [ic_properties]&lt;/script&gt;<CR/>  &lt;ic_style&gt;<CR/><CR/>&lt;/head&gt;<CR/>&lt;body onLoad=setQRCode();&gt;<CR/><CR/>    &lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;<CR/><CR/>    &lt;script&gt;<CR/>        function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}<CR/>    &lt;/script&gt;<CR/><CR/>&lt;script&gt;<CR/>{<CR/>    $(callFileMaker(window.ic_properties))<CR/>};<CR/><CR/>function callFileMaker(scriptParameters, retry = 0) {<CR/>    let numberOfRetries = 10;<CR/>    try {<CR/>        FileMaker.PerformScript(&apos;getTable&apos;, JSON.stringify(scriptParameters))<CR/>    } catch (e) {<CR/>        if (retry &lt; numberOfRetries) {<CR/>            setTimeout(function() {<CR/>                callFileMaker(scriptParameters, retry++)<CR/>            }, 10)<CR/>        }<CR/>    }<CR/>}<CR/>class FMData {<CR/>    constructor(data) {<CR/>        this.raw = data;<CR/>        this.parsed = data.length === 0 ? [] : JSON.parse(data);<CR/>        this.fieldData = function() {<CR/>            return this.parsed.map((element) =&gt; element.fieldData)<CR/>        };<CR/>        this.portalData = function() {<CR/>            return this.parsed.map((element) =&gt; element.portalData)<CR/>        };<CR/>        this.portalDataInfo = function() {<CR/>            return this.parsed.map((element) =&gt; element.portalDataInfo)<CR/>        };<CR/>        this.modId = function() {<CR/>            return this.parsed.map((element) =&gt; element.modId)<CR/>        };<CR/>        this.recordId = function() {<CR/>            return this.parsed.map((element) =&gt; element.recordId)<CR/>        };<CR/>        this.data = function() {<CR/>            return this.parsed<CR/>        }<CR/>    }<CR/>}<CR/>class TableData extends FMData {<CR/>    constructor(data) {<CR/>        super(data);<CR/>        this.columns = function() {<CR/>            let columns = [ic_COLUMNS];<CR/>            if (Array.isArray(columns) &amp;&amp; columns.length != 0) {<CR/>                return columns<CR/>            } else {<CR/>                return Object.keys(this.fieldData()[0]).map(element =&gt; ({<CR/>                    data: element.replace(&quot;.&quot;, &quot;\\.&quot;),<CR/>                    title: element<CR/>                }))<CR/>            }<CR/>        }<CR/>    }<CR/>}<CR/><CR/>function prepareTableData(data) {<CR/>    let list = new TableData(data);<CR/>    let contents = list.fieldData();<CR/>    let columns = list.columns();<CR/>    let settings = getSettings();<CR/>    let tableObject = createTableObject(contents, columns, settings);<CR/>    showTable(tableObject)<CR/><CR/>    let buttonAppend = function() {<CR/><CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/><CR/>    table<CR/>    .buttons()<CR/>    .container()<CR/>    .appendTo( &apos;#table_length&apos; );<CR/><CR/>    table<CR/>    .buttons()<CR/>    .container()<CR/>    .addClass(&apos;mx-2&apos;);<CR/>    }();<CR/>}<CR/><CR/>function getSettings() {<CR/>    let settings = [ic_TABLE];<CR/>    if (typeof settings === &apos;object&apos;) {<CR/>        return settings<CR/>    } else {<CR/>        return;<CR/>    }<CR/>}<CR/><CR/>function createTableObject(contents, columns, settings) {<CR/>    let tableObject = {<CR/>        data: contents,<CR/>        columns: columns<CR/>    };<CR/>    return Object.assign(tableObject, settings)<CR/>}<CR/><CR/>function showTable(tableObject) {<CR/>    if (!$.fn.DataTable.isDataTable(&apos;#table&apos;)) {<CR/>        $(&apos;#table&apos;).DataTable(tableObject)<CR/>    }<CR/>}<CR/><CR/>function createButtonElement(buttonText, scriptName, classList) {<CR/>    return buttonFunc = function(data, type, row) {<CR/>        return `&lt;center&gt;&lt;button class=&quot;${ classList }&quot; data-script=${ scriptName }&gt;${ buttonText }&lt;/button&gt;&lt;/center&gt;`<CR/>    }<CR/>}<CR/><CR/>function externalButtonClicked(scriptName) {<CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/>    var selected = [];<CR/>    for (var i = 0; i &lt; table.rows(&apos;.selected&apos;).data().length; i += 1) {<CR/>        selected.push(table.rows(&apos;.selected&apos;).data()[i])<CR/>    }<CR/>    FileMaker.PerformScript(scriptName, JSON.stringify(selected));<CR/>}<CR/><CR/>$(&apos;#table&apos;).on(&apos;click&apos;, &apos;.btn&apos;, function() {<CR/>    let table = $(&apos;#table&apos;).DataTable();<CR/>    let rowNode = $(this).parent().parent();<CR/>    let rowData = table.row(rowNode).data();<CR/>    let script = $(this).data(&quot;script&quot;);<CR/>    FileMaker.PerformScript(script, JSON.stringify(rowData));<CR/>});<CR/>&lt;/script&gt; <CR/><CR/>&lt;ic_script&gt;<CR/><CR/>&lt;/body&gt;<CR/>&lt;/html&gt;</TargetText>
+	<Comment>com.fmi.layoutobject.text.&lt;html lang=&quot;en&quot;&gt;_CR/_&lt;head&gt;_CR/_  &lt;meta charset=&quot;UTF-8&quot;/&gt;_CR/_  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;_CR/_  &lt;title&gt;iCore Encoder&lt;/title&gt;_CR/_  &lt;script&gt;window.ic_properties = [ic_properties]&lt;/script&gt;_CR/_  &lt;ic_style&gt;_CR/__CR/_&lt;/head&gt;_CR/_&lt;body onLoad=setQRCode();&gt;_CR/__CR/_    &lt;DIV id=&quot;qrDisplay&quot; style=&quot;display:flex;justify-content:center;&quot; &gt;&lt;/DIV&gt;_CR/__CR/_    &lt;script&gt;_CR/_        function setQRCode(){var e=qrcode([&lt;ic^TYPENUMBER&gt;],&quot;[&lt;ic^ERRORCORRECTION&gt;]&quot;);e.addData(&quot;[&lt;ic^TEXT&gt;]&quot;),e.make(),c=e.getModuleCount();var o=Math.floor([&lt;ic^SIZE&gt;]/(c+([&lt;ic^MARGIN&gt;]==1?8:0)));m=[&lt;ic^MARGIN&gt;]==1?4*o:0;var n=e.createImgTag(o,m,&quot;[&lt;ic^TEXT&gt;]&quot;);document.getElementById(&quot;qrDisplay&quot;).innerHTML=n}function getQRCode(a){i=document.getElementById(&quot;qrDisplay&quot;).innerHTML,o={[a]:{&quot;img&quot;:i}},FileMaker.PerformScriptWithOption(&quot;getQRCode&quot;,JSON.stringify(o),&quot;5&quot;)}_CR/_    &lt;/script&gt;_CR/__CR/_&lt;script&gt;_CR/_{_CR/_    $(callFileMaker(window.ic_properties))_CR/_};_CR/__CR/_function callFileMaker(scriptParameters, retry = 0) {_CR/_    let numberOfRetries = 10;_CR/_    try {_CR/_        FileMaker.PerformScript(&apos;getTable&apos;, JSON.stringify(scriptParameters))_CR/_    } catch (e) {_CR/_        if (retry &lt; numberOfRetries) {_CR/_            setTimeout(function() {_CR/_                callFileMaker(scriptParameters, retry++)_CR/_            }, 10)_CR/_        }_CR/_    }_CR/_}_CR/_class FMData {_CR/_    constructor(data) {_CR/_        this.raw = data;_CR/_        this.parsed = data.length === 0 ? [] : JSON.parse(data);_CR/_        this.fieldData = function() {_CR/_            return this.parsed.map((element) =&gt; element.fieldData)_CR/_        };_CR/_        this.portalData = function() {_CR/_            return this.parsed.map((element) =&gt; element.portalData)_CR/_        };_CR/_        this.portalDataInfo = function() {_CR/_            return this.parsed.map((element) =&gt; element.portalDataInfo)_CR/_        };_CR/_        this.modId = function() {_CR/_            return this.parsed.map((element) =&gt; element.modId)_CR/_        };_CR/_        this.recordId = function() {_CR/_            return this.parsed.map((element) =&gt; element.recordId)_CR/_        };_CR/_        this.data = function() {_CR/_            return this.parsed_CR/_        }_CR/_    }_CR/_}_CR/_class TableData extends FMData {_CR/_    constructor(data) {_CR/_        super(data);_CR/_        this.columns = function() {_CR/_            let columns = [ic_COLUMNS];_CR/_            if (Array.isArray(columns) &amp;&amp; columns.length != 0) {_CR/_                return columns_CR/_            } else {_CR/_                return Object.keys(this.fieldData()[0]).map(element =&gt; ({_CR/_                    data: element.replace(&quot;.&quot;, &quot;\\.&quot;),_CR/_                    title: element_CR/_                }))_CR/_            }_CR/_        }_CR/_    }_CR/_}_CR/__CR/_function prepareTableData(data) {_CR/_    let list = new TableData(data);_CR/_    let contents = list.fieldData();_CR/_    let columns = list.columns();_CR/_    let settings = getSettings();_CR/_    let tableObject = createTableObject(contents, columns, settings);_CR/_    showTable(tableObject)_CR/__CR/_    let buttonAppend = function() {_CR/__CR/_    let table = $(&apos;#table&apos;).DataTable();_CR/__CR/_    table_CR/_    .buttons()_CR/_    .container()_CR/_    .appendTo( &apos;#table_length&apos; );_CR/__CR/_    table_CR/_    .buttons()_CR/_    .container()_CR/_    .addClass(&apos;mx-2&apos;);_CR/_    }();_CR/_}_CR/__CR/_function getSettings() {_CR/_    let settings = [ic_TABLE];_CR/_    if (typeof settings === &apos;object&apos;) {_CR/_        return settings_CR/_    } else {_CR/_        return;_CR/_    }_CR/_}_CR/__CR/_function createTableObject(contents, columns, settings) {_CR/_    let tableObject = {_CR/_        data: contents,_CR/_        columns: columns_CR/_    };_CR/_    return Object.assign(tableObject, settings)_CR/_}_CR/__CR/_function showTable(tableObject) {_CR/_    if (!$.fn.DataTable.isDataTable(&apos;#table&apos;)) {_CR/_        $(&apos;#table&apos;).DataTable(tableObject)_CR/_    }_CR/_}_CR/__CR/_function createButtonElement(buttonText, scriptName, classList) {_CR/_    return buttonFunc = function(data, type, row) {_CR/_        return `&lt;center&gt;&lt;button class=&quot;${ classList }&quot; data-script=${ scriptName }&gt;${ buttonText }&lt;/button&gt;&lt;/center&gt;`_CR/_    }_CR/_}_CR/__CR/_function externalButtonClicked(scriptName) {_CR/_    let table = $(&apos;#table&apos;).DataTable();_CR/_    var selected = [];_CR/_    for (var i = 0; i &lt; table.rows(&apos;.selected&apos;).data().length; i += 1) {_CR/_        selected.push(table.rows(&apos;.selected&apos;).data()[i])_CR/_    }_CR/_    FileMaker.PerformScript(scriptName, JSON.stringify(selected));_CR/_}_CR/__CR/_$(&apos;#table&apos;).on(&apos;click&apos;, &apos;.btn&apos;, function() {_CR/_    let table = $(&apos;#table&apos;).DataTable();_CR/_    let rowNode = $(this).parent().parent();_CR/_    let rowData = table.row(rowNode).data();_CR/_    let script = $(this).data(&quot;script&quot;);_CR/_    FileMaker.PerformScript(script, JSON.stringify(rowData));_CR/_});_CR/_&lt;/script&gt; _CR/__CR/_&lt;ic_script&gt;_CR/__CR/_&lt;/body&gt;_CR/_&lt;/html&gt;</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
@@ -371,13 +378,6 @@
 </DynamicTemplateString>
 
 <DynamicTemplateString>
-	<StringID>com.fmi.script.F29591D749D1EBAD13B54DDBF79F66B7</StringID>
-	<SourceText>getQRCode Copy</SourceText>
-	<TargetText>getQRCode Copy</TargetText>
-	<Comment>com.fmi.script.getQRCode Copy</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
 	<StringID>com.fmi.script.folder.6B79A1933AAD9F6E7D2AFE77AC965D79</StringID>
 	<SourceText>iCore</SourceText>
 	<TargetText>iCore</TargetText>
@@ -389,13 +389,6 @@
 	<SourceText>/********* HEADER **********<CR/><TAB/>Purpose: Get the QR Code as a file<CR/><TAB/>Parameter: Addon UUID<TAB/><TAB/>Optional<CR/><TAB/>Result:<CR/><TAB/><TAB/>result<TAB/><TAB/><TAB/><TAB/>gif image container data<CR/><TAB/>Version:<CR/><TAB/><TAB/>3/7/2021<TAB/><TAB/><TAB/>created<CR/><CR/><TAB/>Notes: After calling this script, set container field to Get ( ScriptResult )<CR/><CR/>********** HEADER *********/</SourceText>
 	<TargetText>/********* HEADER **********<CR/><TAB/>Purpose: Get the QR Code as a file<CR/><TAB/>Parameter: Addon UUID<TAB/><TAB/>Optional<CR/><TAB/>Result:<CR/><TAB/><TAB/>result<TAB/><TAB/><TAB/><TAB/>gif image container data<CR/><TAB/>Version:<CR/><TAB/><TAB/>3/7/2021<TAB/><TAB/><TAB/>created<CR/><CR/><TAB/>Notes: After calling this script, set container field to Get ( ScriptResult )<CR/><CR/>********** HEADER *********/</TargetText>
 	<Comment>com.fmi.scriptstep.text./********* HEADER **********_CR/__TAB/_Purpose: Get the QR Code as a file_CR/__TAB/_Parameter: Addon UUID_TAB/__TAB/_Optional_CR/__TAB/_Result:_CR/__TAB/__TAB/_result_TAB/__TAB/__TAB/__TAB/_gif image container data_CR/__TAB/_Version:_CR/__TAB/__TAB/_3/7/2021_TAB/__TAB/__TAB/_created_CR/__CR/__TAB/_Notes: After calling this script, set container field to Get ( ScriptResult )_CR/__CR/_********** HEADER *********/</Comment>
-</DynamicTemplateString>
-
-<DynamicTemplateString>
-	<StringID>com.fmi.scriptstep.text.163B9D870A3906966EC1029B3235EFEB</StringID>
-	<SourceText>DON&apos;T WANT TO CALL EVERYTIME IT LOADS</SourceText>
-	<TargetText>DON&apos;T WANT TO CALL EVERYTIME IT LOADS</TargetText>
-	<Comment>com.fmi.scriptstep.text.DON&apos;T WANT TO CALL EVERYTIME IT LOADS</Comment>
 </DynamicTemplateString>
 
 <DynamicTemplateString>
