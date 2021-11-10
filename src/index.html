@@ -3,8 +3,25 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iCore Encoder</title>
-  <script>window.ic_properties = [ic_properties]</script>
-  <ic_style>
+  <script>
+        window.ic_settings = [ic_SETTINGS];
+        window.ic_properties = [ic_PROPERTIES];
+
+    function getProperties() {
+        let prop = window.ic_properties;
+        if (typeof prop === 'object') {
+         return prop
+     } else {
+          return
+     }
+    }
+
+    function setProperties(p) {
+        window.ic_properties = p;
+    }
+    </script>
+
+    <ic_style>
 
 </head>
 <body onLoad=setQRCode();>
@@ -12,7 +29,27 @@
     <DIV id="qrDisplay" style="display:flex;justify-content:center;" ></DIV>
 
     <script>
-        function setQRCode(){var e=qrcode([<ic^TYPENUMBER>],"[<ic^ERRORCORRECTION>]");e.addData("[<ic^TEXT>]"),e.make(),c=e.getModuleCount();var o=Math.floor([<ic^SIZE>]/(c+([<ic^MARGIN>]==1?8:0)));m=[<ic^MARGIN>]==1?4*o:0;var n=e.createImgTag(o,m,"[<ic^TEXT>]");document.getElementById("qrDisplay").innerHTML=n}function getQRCode(a){i=document.getElementById("qrDisplay").innerHTML,o={[a]:{"img":i}},FileMaker.PerformScriptWithOption("getQRCode",JSON.stringify(o),"5")}
+        function setQRCode(){
+            var prop = getProperties();
+            if (prop != null) {
+                var qrCode = qrcode( prop.typeNumber, prop.errorCorrection );
+                qrCode.addData(prop.text);
+                qrCode.make();
+                columns=qrCode.getModuleCount();
+
+                var size=Math.floor( prop.size / (columns+( prop.margin == 1 ? 8 : 0 )));
+                margin = prop.margin == 1 ? 4*size : 0;
+                var img=qrCode.createImgTag(size, margin, prop.text);
+
+                document.getElementById("qrDisplay").innerHTML = img
+            }
+        }
+
+        function getQRCode(AddOn){
+            img=document.getElementById("qrDisplay").innerHTML;
+            result={[window.ic_settings.AddOn]:{"img":img}};
+            FileMaker.PerformScriptWithOption( window.ic_settings.script , JSON.stringify( result ), "5")
+        }
     </script>
 
 <script>
@@ -97,14 +134,7 @@ function prepareTableData(data) {
     }();
 }
 
-function getSettings() {
-    let settings = [ic_TABLE];
-    if (typeof settings === 'object') {
-        return settings
-    } else {
-        return;
-    }
-}
+
 
 function createTableObject(contents, columns, settings) {
     let tableObject = {
