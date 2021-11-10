@@ -2,11 +2,6 @@
 *.diff
 *.err
 *.log
-*.orig
-*.rej
-*.swo
-*.swp
-*.vi
 *.zip
 *~
 
@@ -17,17 +12,11 @@
 .idea
 .project
 .settings
-.tmproj
-*.esproj
-*.sublime-project
-*.sublime-workspace
-nbproject
-Thumbs.db
 /.vscode/
-# Local Netlify folder
-.netlify
-
 
 
 # Folders to ignore
 /node_modules/
+/test/
+/tmp/
+/archives
