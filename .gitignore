@@ -2,7 +2,6 @@
 *.diff
 *.err
 *.log
-*.zip
 *~
 
 # OS or Editor folders
