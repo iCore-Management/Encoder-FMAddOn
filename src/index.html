@@ -29,6 +29,7 @@
     <DIV id="qrDisplay" style="display:flex;justify-content:center;" ></DIV>
 
     <script>
+
         function setQRCode(){
             var prop = getProperties();
             if (prop != null) {
@@ -52,129 +53,7 @@
         }
     </script>
 
-<script>
-{
-    $(callFileMaker(window.ic_properties))
-};
-
-function callFileMaker(scriptParameters, retry = 0) {
-    let numberOfRetries = 10;
-    try {
-        FileMaker.PerformScript('getTable', JSON.stringify(scriptParameters))
-    } catch (e) {
-        if (retry < numberOfRetries) {
-            setTimeout(function() {
-                callFileMaker(scriptParameters, retry++)
-            }, 10)
-        }
-    }
-}
-class FMData {
-    constructor(data) {
-        this.raw = data;
-        this.parsed = data.length === 0 ? [] : JSON.parse(data);
-        this.fieldData = function() {
-            return this.parsed.map((element) => element.fieldData)
-        };
-        this.portalData = function() {
-            return this.parsed.map((element) => element.portalData)
-        };
-        this.portalDataInfo = function() {
-            return this.parsed.map((element) => element.portalDataInfo)
-        };
-        this.modId = function() {
-            return this.parsed.map((element) => element.modId)
-        };
-        this.recordId = function() {
-            return this.parsed.map((element) => element.recordId)
-        };
-        this.data = function() {
-            return this.parsed
-        }
-    }
-}
-class TableData extends FMData {
-    constructor(data) {
-        super(data);
-        this.columns = function() {
-            let columns = [ic_COLUMNS];
-            if (Array.isArray(columns) && columns.length != 0) {
-                return columns
-            } else {
-                return Object.keys(this.fieldData()[0]).map(element => ({
-                    data: element.replace(".", "\\."),
-                    title: element
-                }))
-            }
-        }
-    }
-}
-
-function prepareTableData(data) {
-    let list = new TableData(data);
-    let contents = list.fieldData();
-    let columns = list.columns();
-    let settings = getSettings();
-    let tableObject = createTableObject(contents, columns, settings);
-    showTable(tableObject)
-
-    let buttonAppend = function() {
-
-    let table = $('#table').DataTable();
-
-    table
-    .buttons()
-    .container()
-    .appendTo( '#table_length' );
-
-    table
-    .buttons()
-    .container()
-    .addClass('mx-2');
-    }();
-}
-
-
-
-function createTableObject(contents, columns, settings) {
-    let tableObject = {
-        data: contents,
-        columns: columns
-    };
-    return Object.assign(tableObject, settings)
-}
-
-function showTable(tableObject) {
-    if (!$.fn.DataTable.isDataTable('#table')) {
-        $('#table').DataTable(tableObject)
-    }
-}
-
-function createButtonElement(buttonText, scriptName, classList) {
-    return buttonFunc = function(data, type, row) {
-        return `<center><button class="${ classList }" data-script=${ scriptName }>${ buttonText }</button></center>`
-    }
-}
-
-function externalButtonClicked(scriptName) {
-    let table = $('#table').DataTable();
-    var selected = [];
-    for (var i = 0; i < table.rows('.selected').data().length; i += 1) {
-        selected.push(table.rows('.selected').data()[i])
-    }
-    FileMaker.PerformScript(scriptName, JSON.stringify(selected));
-}
-
-$('#table').on('click', '.btn', function() {
-    let table = $('#table').DataTable();
-    let rowNode = $(this).parent().parent();
-    let rowData = table.row(rowNode).data();
-    let script = $(this).data("script");
-    FileMaker.PerformScript(script, JSON.stringify(rowData));
-});
-</script> 
-
-<ic_script>
+    <ic_script>
 
 </body>
 </html>
