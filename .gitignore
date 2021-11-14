@@ -3,6 +3,7 @@
 *.err
 *.log
 *~
+AddOn*
 
 # OS or Editor folders
 ._*
