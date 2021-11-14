@@ -1,59 +1,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iCore Encoder</title>
+
+  <title>iCore: Encoder</title>
   <script>
-        window.ic_settings = [ic_SETTINGS];
-        window.ic_properties = [ic_PROPERTIES];
+    /* { 'AddOn', 'script', 'status'} */
+    window.ic_settings = [ic_SETTINGS];
+    /* Customize for javascript app */
+    window.ic_properties = [ic_PROPERTIES];
 
-    function getProperties() {
-        let prop = window.ic_properties;
-        if (typeof prop === 'object') {
-         return prop
-     } else {
-          return
-     }
+    function setStatus(status) {
+      window.ic_settings.status = status
     }
 
+    function getProperties(script) {
+        let properties = window.ic_properties;
+        if (typeof properties === 'object') {
+//            if ( script ) { callFileMaker( script, {'action':'setProperties','parameter' : properties}, 5 ) };
+            if ( script ) { callFileMaker( script, {'action':'result','parameter' : properties}, 5 ) };
+            return properties
+        } else {
+            return
+        }
+    }
     function setProperties(p) {
-        window.ic_properties = p;
-    }
-    </script>
+      properties = JSON.parse(p);
+      window.ic_properties = properties;
 
-    <ic_style>
+      /* Customize for updating javascript app properties */
+      initialize(properties);
+    }
+
+    function initialize(properties) {
+
+      /* Customize for initial javascript setup */
+      setQRCode( properties );
+if ( window.ic_settings.status === "Loading" ) {
+callFileMaker(window.ic_settings.script, {'action':'initialize'}, 5 );
+}
+      
+
+    }
+
+    function getData (query) {
+      /* Customize for getting FileMaker Data */
+      callFileMaker(window.ic_settings.script, {'action':'getData' , 'parameter' : query }, 0 );
+    }
+    function setData(data) {
+      /* Customize for receiveing FileMaker Data */
+      prepareTableData(data);
+    }
+
+    function callFileMaker(script, parameters, option, retry = 0) {
+      let numberOfRetries = 5;
+      try {
+parameters.addOn = window.ic_settings.addOn;
+        // Starting in v19.1.2
+FileMaker.PerformScriptWithOption ( script, JSON.stringify( parameters ), option );
+ //       FileMaker.PerformScriptWithOption ( script, JSON.stringify( { 'addOn':[window.ic_settings.addOn], 'parameter' : parameters } ), option );
+        //FileMaker.PerformScript( script, JSON.stringify( { [addOn] : parameters } ));
+      } catch (e) {
+        if (retry < numberOfRetries) {
+          setTimeout(function() {
+              callFileMaker(script, parameters, option, retry++)
+          }, 10)
+        }
+      }
+    }
+
+  </script>
+  
+  <ic.style>
+  <ic.script>
 
 </head>
-<body onLoad=setQRCode();>
+<body>
+<DIV id="fm_target" style="display:flex;justify-content:center;" ></DIV>
 
-    <DIV id="qrDisplay" style="display:flex;justify-content:center;" ></DIV>
+  <script>
+    {
+      initialize(getProperties());
+    }
 
-    <script>
-
-        function setQRCode(){
-            var prop = getProperties();
-            if (prop != null) {
-                var qrCode = qrcode( prop.typeNumber, prop.errorCorrection );
-                qrCode.addData(prop.text);
-                qrCode.make();
-                columns=qrCode.getModuleCount();
-
-                var size=Math.floor( prop.size / (columns+( prop.margin == 1 ? 8 : 0 )));
-                margin = prop.margin == 1 ? 4*size : 0;
-                var img=qrCode.createImgTag(size, margin, prop.text);
-
-                document.getElementById("qrDisplay").innerHTML = img
-            }
-        }
-
-        function getQRCode(AddOn){
-            img=document.getElementById("qrDisplay").innerHTML;
-            result={[window.ic_settings.AddOn]:{"img":img}};
-            FileMaker.PerformScriptWithOption( window.ic_settings.script , JSON.stringify( result ), "5")
-        }
-    </script>
-
-    <ic_script>
-
+  </script>
 </body>
 </html>
