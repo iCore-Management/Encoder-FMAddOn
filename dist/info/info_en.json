@@ -1,18 +1,7 @@
-﻿{
-	"Title" : "Encoder",
-
-	"Description" : "A QR Encoder with no external dependencies",
-
+{
 	"Category" : "iCore",
-
-	"Features" :
-		[
-			"Encode FileMaker data into QR Codes"
-		],
-
-	"Optimized" :
-		[
-			"Desktop", "Tablet", "Mobile"
-
-		]
+	"Description" : "\"A QR Encoder with no external dependencies\"",
+	"Features" : [ "Encode FileMaker data into QR Codes" ],
+	"Optimized" : [ "Desktop", "Tablet", "Mobile" ],
+	"Title" : "Encoder"
 }
