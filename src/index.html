@@ -15,18 +15,18 @@
       window.ic_settings.status = status
     }
 
-    function getProperties(script) {
+    function getProperties(callBack) {
         let properties = window.ic_properties;
         if (typeof properties === 'object') {
-//            if ( script ) { callFileMaker( script, {'action':'setProperties','parameter' : properties}, 5 ) };
-            if ( script ) { callFileMaker( script, {'action':'result','parameter' : properties}, 5 ) };
+            if ( callBack ) { callFileMaker( callBack, {'action':'result','parameter' : properties}, 5 ) };
             return properties
         } else {
             return
         }
     }
     function setProperties(p) {
-      properties = JSON.parse(p);
+      let properties = p;
+      if (typeof properties !== 'object') { properties = JSON.parse(p) }
       window.ic_properties = properties;
 
       /* Customize for updating javascript app properties */
@@ -34,32 +34,34 @@
     }
 
     function initialize(properties) {
+      if ( window.ic_settings.status === "Loading" ) {
+        callFileMaker(window.ic_settings.script, {'action':'initialize'}, 5 );
+      }
 
       /* Customize for initial javascript setup */
-      setQRCode( properties );
-if ( window.ic_settings.status === "Loading" ) {
-callFileMaker(window.ic_settings.script, {'action':'initialize'}, 5 );
-}
-      
+      properties['correctLevel'] = QRCode.CorrectLevel.H;
+      properties['onRenderingEnd'] = function(qrCodeOptions, base64DataFn){
+	      setQRCode(base64DataFn) };
 
+	    new QRCode(document.getElementById("fm_target"), properties);
     }
 
     function getData (query) {
+
       /* Customize for getting FileMaker Data */
       callFileMaker(window.ic_settings.script, {'action':'getData' , 'parameter' : query }, 0 );
     }
     function setData(data) {
-      /* Customize for receiveing FileMaker Data */
-      prepareTableData(data);
+
+      /* Customize for receiving FileMaker Data */
     }
 
     function callFileMaker(script, parameters, option, retry = 0) {
       let numberOfRetries = 5;
       try {
-parameters.addOn = window.ic_settings.addOn;
+        parameters.addOn = window.ic_settings.addOn;
         // Starting in v19.1.2
-FileMaker.PerformScriptWithOption ( script, JSON.stringify( parameters ), option );
- //       FileMaker.PerformScriptWithOption ( script, JSON.stringify( { 'addOn':[window.ic_settings.addOn], 'parameter' : parameters } ), option );
+        FileMaker.PerformScriptWithOption ( script, JSON.stringify( parameters ), option );
         //FileMaker.PerformScript( script, JSON.stringify( { [addOn] : parameters } ));
       } catch (e) {
         if (retry < numberOfRetries) {
@@ -72,18 +74,18 @@ FileMaker.PerformScriptWithOption ( script, JSON.stringify( parameters ), option
 
   </script>
   
-  <ic.style>
-  <ic.script>
+  <style>[ic_STYLE]</style>
+  <script>[ic_SCRIPT]</script>
 
 </head>
 <body>
-<DIV id="fm_target" style="display:flex;justify-content:center;" ></DIV>
+
+  <DIV id="fm_target" style="display:flex;justify-content:center;" ></DIV>
 
   <script>
     {
       initialize(getProperties());
     }
-
   </script>
 </body>
 </html>
