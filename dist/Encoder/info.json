@@ -1,8 +1,11 @@
-{
-	"Attribution" : "iCore",
-	"Clients" : [ "Pro" ],
+﻿{
 	"GUID" : "F9041FBE-617C-4A97-B337-94AB910A0341",
-	"Icon_Color" : "#7F7F7F",
+	"Clients" :
+		[
+			"Pro"
+		],
+	"Attribution" : "iCore",
 	"URL" : "https://icoremanagement.com",
+	"Icon_Color" : "#7F7F7F",
 	"Version" : "1.0"
 }
