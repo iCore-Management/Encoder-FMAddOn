@@ -44,7 +44,7 @@ Package Contents:
   Encoder automatically adjusts the size of the QR Code to the size of the webViewer.  To adjust the size of the QR Code, change the size of the webViewer.
   
   **Options:** 
-  '''
+  ~~~
   {
     // ====== Basic
     text: "https://github.com/ushelp/EasyQRCodeJS",
@@ -168,7 +168,7 @@ Package Contents:
     */   
 
 }
-'''
+~~~
   If allow interation is enabled, the QR Code gif can be dragged directly from the webViewer.
   
   getQRCode: To get the QR Code as a variable that can be used in FileMaker programming and containers, call this script and use Get ( ScriptResult ). The script result is the data file and can be used to set a container field to the file.
