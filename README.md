@@ -28,7 +28,8 @@ Package Contents:
    Win: ~\\AppData\\Local\\FileMaker\\Extensions\\AddonModules
 
   1. Install Encoder from the Add-Ons tab in Layout Mode.
-  ![Add-Ons Tab](docs/images/Readme -Addons.png)
+  
+  ![Add-Ons Tab](docs/images/Readme-Addons.png)
   2. Navigate to iCore, and select "Encoder" to install.
   ![Add-Ons Tab]('/docs/images/readme -Choose.png')
   3. Drag the installed AddOn to the layout to install it.
