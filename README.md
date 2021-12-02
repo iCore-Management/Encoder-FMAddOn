@@ -33,7 +33,7 @@ Package Contents:
   
   2. Navigate to iCore, and select "Encoder" to install.
   
-  ![Add-Ons Tab]('docs/images/Readme -Choose.png')
+  ![Add-Ons Tab](docs/images/Readme -Choose.png)
   
   3. Drag the installed AddOn to the layout to install it.
   4. Open the webviewer settings and update the qrText calculation and options
