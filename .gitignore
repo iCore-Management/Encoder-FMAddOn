@@ -16,8 +16,9 @@ AddOn*
 
 
 # Folders to ignore
-/project/
-/test/
+/dist/production
+/project/versions/
+/src/secure/
+/test/data/
 /tmp/
 /archives
-*.fmaddon
