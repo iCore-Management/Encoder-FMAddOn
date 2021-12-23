@@ -13,7 +13,6 @@
 .settings
 /.vscode/
 
-
 # Folders to ignore
 /dist/production
 /project/versions/
