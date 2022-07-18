@@ -27,7 +27,7 @@ Package Contents:
    
    Win: ~\\AppData\\Local\\FileMaker\\Extensions\\AddonModules
 
-  1. Install Encoder from the Add-Ons tab in Layout Mode.
+  1. Restart FileMaker Pro, then install Encoder from the Add-Ons tab in Layout Mode.
   
   ![Add-Ons Tab](docs/images/Readme-Addons.png)
   
